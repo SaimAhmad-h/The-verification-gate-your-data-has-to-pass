@@ -2,9 +2,6 @@
 
 ### E-Commerce Order Data Cleaning & Verification Pipeline
 
-A Python/pandas pipeline that audits, cleans, and formally verifies a raw e-commerce order
-dataset. Built as **Project 1: Data Cleaning & Preparation** for the DecodeLabs Industrial
-Training Kit, Batch 2026.
 
 ---
 
@@ -266,6 +263,12 @@ order/transaction dataset with minimal changes:
   value rather than the pipeline silently guessing a date and being wrong.
 - **Hard `assert`s in the Verification Gate rather than just print statements** — a
   print statement can be ignored; a failed assertion stops execution and forces attention.
+
+  **Output
+
+
+  <img width="1086" height="485" alt="image" src="https://github.com/user-attachments/assets/bf4a2f7f-7c49-462b-a4b0-7a3e8846b4c0" />
+
 
 ---
 
